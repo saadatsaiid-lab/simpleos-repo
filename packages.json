@@ -50,3 +50,21 @@
     }
   ]
 }
+{
+  "name": "space_defender",
+  "display_name": "Saasat Space Defender",
+  "version": "1.0.0",
+  "description": "A space shooter game for Saasat OS",
+  "author": "Saasat OS Team",
+  "icon": "🚀",
+  "category": "Games",
+  "size": 0,
+  "download_url": "https://raw.githubusercontent.com/saadatsaiid-lab/simpleos-repo/main/packages/space_defender.py",
+  "sha256": "",
+  "dependencies": [],
+  "requires": "python>=3.10",
+  "is_system": false,
+  "app_class": "SpaceDefender",
+  "homepage": "https://github.com/saadatsaiid-lab/simpleos-repo",
+  "changelog": "Initial release"
+}
