@@ -72,7 +72,7 @@
       "name": "notepad",
       "display_name": "Notepad Pro",
       "version": "1.0.0",
-      "description": "ویرایشگر متن حرفه‌ای با جستجو، جایگزینی، تغییر فونت، حالت تیره/روشن و شمارش کلمات.",
+      "description": "ویرایشگر متن حرفه‌ای برای Saasat OS با منو، نوار ابزار، شمارش کلمات و حالت تیره/روشن",
       "author": "Saasat OS Team",
       "icon": "📝",
       "category": "Productivity",
@@ -86,7 +86,7 @@
       "entrypoint": "notepad.py",
       "min_saasat_os": "7.1",
       "homepage": "https://github.com/saadatsaiid-lab/simpleos-repo",
-      "changelog": "Initial release - full-featured text editor with find/replace, font change, theme toggle"
+      "changelog": "Initial release - full-featured text editor"
     }
   ]
 }
