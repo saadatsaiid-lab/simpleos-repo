@@ -1,9 +1,9 @@
 {
   "schema": 2,
   "repository": {
-    "name": "SimpleOS Repository",
+    "name": "Saasat OS Repository",
     "version": "1.0.0",
-    "description": "Official package repository for SimpleOS 7.1",
+    "description": "Official package repository for Saasat OS 7.1",
     "maintainer": "saadatsaiid-lab",
     "homepage": "https://github.com/saadatsaiid-lab/simpleos-repo"
   },
@@ -12,8 +12,8 @@
       "name": "calculator",
       "display_name": "Calculator",
       "version": "1.0.0",
-      "description": "A simple calculator application for SimpleOS",
-      "author": "SimpleOS Team",
+      "description": "A simple calculator application for Saasat OS",
+      "author": "Saasat OS Team",
       "icon": "🧮",
       "category": "Utilities",
       "size": 0,
@@ -24,7 +24,7 @@
       "is_system": false,
       "app_class": "CalculatorApp",
       "entrypoint": "calculator.py",
-      "min_simpleos": "7.1",
+      "min_saasat_os": "7.1",
       "homepage": "https://github.com/saadatsaiid-lab/simpleos-repo",
       "changelog": "Initial release"
     },
@@ -32,8 +32,8 @@
       "name": "clock",
       "display_name": "Clock",
       "version": "1.0.0",
-      "description": "Digital clock application for SimpleOS",
-      "author": "SimpleOS Team",
+      "description": "Digital clock application for Saasat OS",
+      "author": "Saasat OS Team",
       "icon": "🕐",
       "category": "Utilities",
       "size": 0,
@@ -44,27 +44,29 @@
       "is_system": false,
       "app_class": "ClockApp",
       "entrypoint": "clock.py",
-      "min_simpleos": "7.1",
+      "min_saasat_os": "7.1",
+      "homepage": "https://github.com/saadatsaiid-lab/simpleos-repo",
+      "changelog": "Initial release"
+    },
+    {
+      "name": "space_defender",
+      "display_name": "Saasat Space Defender",
+      "version": "1.0.0",
+      "description": "A space shooter game for Saasat OS",
+      "author": "Saasat OS Team",
+      "icon": "🚀",
+      "category": "Games",
+      "size": 0,
+      "download_url": "https://raw.githubusercontent.com/saadatsaiid-lab/simpleos-repo/main/packages/space_defender.py",
+      "sha256": "",
+      "dependencies": [],
+      "requires": "python>=3.10",
+      "is_system": false,
+      "app_class": "SpaceDefender",
+      "entrypoint": "space_defender.py",
+      "min_saasat_os": "7.1",
       "homepage": "https://github.com/saadatsaiid-lab/simpleos-repo",
       "changelog": "Initial release"
     }
   ]
-}
-{
-  "name": "space_defender",
-  "display_name": "Saasat Space Defender",
-  "version": "1.0.0",
-  "description": "A space shooter game for Saasat OS",
-  "author": "Saasat OS Team",
-  "icon": "🚀",
-  "category": "Games",
-  "size": 0,
-  "download_url": "https://raw.githubusercontent.com/saadatsaiid-lab/simpleos-repo/main/packages/space_defender.py",
-  "sha256": "",
-  "dependencies": [],
-  "requires": "python>=3.10",
-  "is_system": false,
-  "app_class": "SpaceDefender",
-  "homepage": "https://github.com/saadatsaiid-lab/simpleos-repo",
-  "changelog": "Initial release"
 }
