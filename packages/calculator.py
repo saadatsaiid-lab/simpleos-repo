@@ -10,7 +10,9 @@ class CalculatorApp:
         self.desktop = desktop
 
     def launch(self):
-        window = tk.Toplevel(self.desktop.root)
+        # ✅ اصلاح شد: استفاده مستقیم از self.desktop به عنوان والد
+        window = tk.Toplevel(self.desktop)
+        
         window.title("🧮 Calculator")
         window.geometry("360x500")
         window.resizable(False, False)
