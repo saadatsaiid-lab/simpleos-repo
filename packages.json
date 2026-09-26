@@ -1,5 +1,5 @@
 {
-  "schema": 1,
+  "schema": 2,
   "repository": {
     "name": "SimpleOS Repository",
     "version": "1.0.0",
@@ -11,7 +11,7 @@
       "name": "calculator",
       "display_name": "Calculator",
       "version": "1.0.0",
-      "description": "A simple calculator application for SimpleOS",
+      "description": "A professional calculator for SimpleOS",
       "author": "SimpleOS Team",
       "icon": "🧮",
       "category": "Utilities",
@@ -23,13 +23,15 @@
       "is_system": false,
       "app_class": "CalculatorApp",
       "homepage": "https://github.com/saadatsaiid-lab/simpleos-repo",
-      "changelog": "Initial release"
+      "changelog": "Initial release",
+      "min_simpleos": "7.0",
+      "entrypoint": "calculator.py"
     },
     {
       "name": "clock",
       "display_name": "Clock",
       "version": "1.0.0",
-      "description": "Digital clock application for SimpleOS",
+      "description": "Digital clock for SimpleOS",
       "author": "SimpleOS Team",
       "icon": "🕐",
       "category": "Utilities",
@@ -41,7 +43,9 @@
       "is_system": false,
       "app_class": "ClockApp",
       "homepage": "https://github.com/saadatsaiid-lab/simpleos-repo",
-      "changelog": "Initial release"
+      "changelog": "Initial release",
+      "min_simpleos": "7.0",
+      "entrypoint": "clock.py"
     }
   ]
 }
