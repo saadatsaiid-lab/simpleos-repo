@@ -12,7 +12,9 @@ class ClockApp:
 
     def launch(self):
 
-        window = tk.Toplevel(self.desktop.root)
+        # ✅ اصلاح شد: استفاده مستقیم از self.desktop
+        window = tk.Toplevel(self.desktop)
+        
         window.title("🕐 Clock")
         window.geometry("500x280")
         window.resizable(False, False)
