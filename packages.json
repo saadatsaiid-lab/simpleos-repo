@@ -4,14 +4,15 @@
     "name": "SimpleOS Repository",
     "version": "1.0.0",
     "description": "Official package repository for SimpleOS 7.1",
-    "maintainer": "saadatsaiid-lab"
+    "maintainer": "saadatsaiid-lab",
+    "homepage": "https://github.com/saadatsaiid-lab/simpleos-repo"
   },
   "packages": [
     {
       "name": "calculator",
       "display_name": "Calculator",
       "version": "1.0.0",
-      "description": "A professional calculator for SimpleOS",
+      "description": "A simple calculator application for SimpleOS",
       "author": "SimpleOS Team",
       "icon": "🧮",
       "category": "Utilities",
@@ -22,16 +23,16 @@
       "requires": "python>=3.10",
       "is_system": false,
       "app_class": "CalculatorApp",
+      "entrypoint": "calculator.py",
+      "min_simpleos": "7.1",
       "homepage": "https://github.com/saadatsaiid-lab/simpleos-repo",
-      "changelog": "Initial release",
-      "min_simpleos": "7.0",
-      "entrypoint": "calculator.py"
+      "changelog": "Initial release"
     },
     {
       "name": "clock",
       "display_name": "Clock",
       "version": "1.0.0",
-      "description": "Digital clock for SimpleOS",
+      "description": "Digital clock application for SimpleOS",
       "author": "SimpleOS Team",
       "icon": "🕐",
       "category": "Utilities",
@@ -42,10 +43,10 @@
       "requires": "python>=3.10",
       "is_system": false,
       "app_class": "ClockApp",
+      "entrypoint": "clock.py",
+      "min_simpleos": "7.1",
       "homepage": "https://github.com/saadatsaiid-lab/simpleos-repo",
-      "changelog": "Initial release",
-      "min_simpleos": "7.0",
-      "entrypoint": "clock.py"
+      "changelog": "Initial release"
     }
   ]
 }
