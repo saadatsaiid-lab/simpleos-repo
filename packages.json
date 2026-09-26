@@ -67,6 +67,26 @@
       "min_saasat_os": "7.1",
       "homepage": "https://github.com/saadatsaiid-lab/simpleos-repo",
       "changelog": "Initial release"
+    },
+    {
+      "name": "notepad",
+      "display_name": "Notepad Pro",
+      "version": "1.0.0",
+      "description": "ویرایشگر متن حرفه‌ای با جستجو، جایگزینی، تغییر فونت، حالت تیره/روشن و شمارش کلمات.",
+      "author": "Saasat OS Team",
+      "icon": "📝",
+      "category": "Productivity",
+      "size": 0,
+      "download_url": "https://raw.githubusercontent.com/saadatsaiid-lab/simpleos-repo/main/packages/notepad.py",
+      "sha256": "",
+      "dependencies": [],
+      "requires": "python>=3.10",
+      "is_system": false,
+      "app_class": "NotepadApp",
+      "entrypoint": "notepad.py",
+      "min_saasat_os": "7.1",
+      "homepage": "https://github.com/saadatsaiid-lab/simpleos-repo",
+      "changelog": "Initial release - full-featured text editor with find/replace, font change, theme toggle"
     }
   ]
 }
